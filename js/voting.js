@@ -53,3 +53,5 @@ function handleImageClick(event) {
 
 renderProductImages();
 imgContainer.addEventListener('click', handleImageClick);
+
+localStorage.setItem('votes', handleImageClick)
